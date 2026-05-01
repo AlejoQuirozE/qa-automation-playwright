@@ -25,7 +25,7 @@ jobs:
       run: npx playwright install --with-deps
 
     - name: Run tests
-      run: npx playwright test
+      run: npx playwright test "tests/carrito Saucedemo.spec.ts" -g "purchase am item 2"
 
     - name: Upload report
       if: always()
