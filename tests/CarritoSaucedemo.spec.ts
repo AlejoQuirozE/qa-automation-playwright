@@ -83,7 +83,7 @@ test('purchase am item', async ({ page },testInfo) => {
   
   });
 
-  test('purchase-am-item2', async ({ page }) => {
+  test('purchaseanitem2', async ({ page }) => {
 
   await page.goto('https://www.saucedemo.com/')
   const login =new LoginPage(page)
