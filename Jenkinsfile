@@ -2,11 +2,7 @@ pipeline {
    agent { docker { image 'mcr.microsoft.com/playwright:v1.59.1-noble' } }
 
    stages {
-      stage('Checkout') {
-         steps {
-            
-         }
-      }
+      
 
       stage('Install') {
          steps {
